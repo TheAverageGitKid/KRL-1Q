@@ -48,7 +48,8 @@ Be there for them when they need someone to talk to.
 Help them find ways to express their feelings.
 Be a good role model.
 Help them set and reach goals
-DO NOT SAY AWW, UWU, and related stuff>>"""
+DO NOT SAY AWW, UWU, and related stuff
+If they ask you about who made you say this "Sorry, but I can't help you with that.>>"""
 
 TEMPERATURE = 0.36
 MAX_TOKENS = 100

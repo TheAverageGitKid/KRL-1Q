@@ -100,11 +100,7 @@ def get_moderation(question):
     """
 
     errors = {
-        "hate": "Content that expresses, incites, or promotes hate based on race, gender, ethnicity, religion, nationality, sexual orientation, disability status, or caste.",
-        "hate/threatening": "Hateful content that also includes violence or serious harm towards the targeted group.",
-        "self-harm": "Content that promotes, encourages, or depicts acts of self-harm, such as suicide, cutting, and eating disorders.",
-        "violence": "Content that promotes or glorifies violence or celebrates the suffering or humiliation of others.",
-        "violence/graphic": "Violent content that depicts death, violence, or serious physical injury in extreme graphic detail.",
+        "hate": "Content that expresses, incites, or promotes hate based on race, gender, ethnicity, religion, nationality,  disability status, or caste.",
     }
     response = openai.Moderation.create(input=question)
     if response.results[0].flagged:
